@@ -1,15 +1,11 @@
-# grades.py
-# A simple student grade calculator
-def calculate_grade(marks):
- if marks >= 90:
-    return "A"
- elif marks >= 75:
-    return "B"
- elif marks >= 60:
-    return "C"
- else:
-    return "F"
-if __name__ == "__main__":
- marks = 82
- print("Marks:", marks)
- print("Grade:", calculate_grade(marks))
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+x= 10
+y = 5
+
+print("Sum:", add(x, y))
+print("Difference:", subtract(x, y))
